@@ -28,3 +28,33 @@
     }
   }
 }
+
+{
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 1,
+        "contract": "Proxy",
+        "label": "implementation",
+        "offset": 0,
+        "slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+        "type": "address"
+      },
+      {
+        "astId": 2,
+        "contract": "AdminUpgradeabilityProxy",
+        "label": "admin",
+        "offset": 0,
+        "slot": "0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103",
+        "type": "address"
+      }
+    ],
+    "types": {
+      "address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      }
+    }
+  }
+}
